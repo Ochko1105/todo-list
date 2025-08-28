@@ -5,7 +5,7 @@ import { v4 as uuidv4 } from "uuid";
 
 import { Button, Task } from "@/components";
 
-export default function Todo() {
+function Home() {
   const [todos, setTodos] = useState([]);
   const [status, setStatus] = useState("All");
   const [inputValue, setInputValue] = useState("");
@@ -172,3 +172,4 @@ export default function Todo() {
     </div>
   );
 }
+export default Home;
