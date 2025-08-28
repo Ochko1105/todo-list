@@ -1,4 +1,3 @@
-export * from "./box";
 export * from "./Web";
 export * from "./Card";
 export * from "./button";
